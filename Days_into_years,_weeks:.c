@@ -7,7 +7,7 @@ int days( int d)
     printf("%d
 %d
 ",y,w);
-    return (w,y);
+    return(w,y);
 }
 int main()
 {
