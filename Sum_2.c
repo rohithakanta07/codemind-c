@@ -1,13 +1,14 @@
 #include<stdio.h>
-int main(){
-    int n,i,a,m,b,p=0;
-    scanf("%d%d%d%d",&n,&m,&a,&b);
-    for(i=n;i<=m;i++)
+int main()
+{
+    int a,b,x,y,i,s=0;
+    scanf("%d%d%d%d",&a,&b,&x,&y);
+    for(i=a;i<=b;i++)
     {
-        if(i%a==0 && i%b!=0)
+        if(i%x==0 && i%y!=0)
         {
-        p=p+i;
+            s=s+i;
+        }
     }
-    }
-    printf("%d",p);
+    printf("%d",s);
 }
